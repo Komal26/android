@@ -49,6 +49,7 @@ public class WebServiceActivity extends Activity implements OnClickListener{
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		getMenuInflater().inflate(R.menu.web, menu);
+		Log.v(TAG,"onCreateOptionsMenu");
 		return true;
 	}
 
