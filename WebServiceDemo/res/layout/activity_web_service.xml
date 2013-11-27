@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical" >
+		<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/get_demo"/>
+		
+		<Button
+		    android:id="@+id/my_button"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:text="@string/get"
+			/>
+		
+		<EditText
+		    android:id="@+id/my_edit"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="20dip"
+			android:minLines="15"
+			android:maxLines="15"
+			android:textSize="12sp"
+			android:inputType="textMultiLine"/>
+
+</LinearLayout>
