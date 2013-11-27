@@ -32,13 +32,14 @@ import android.widget.EditText;
 
 public class WebServiceActivity extends Activity implements OnClickListener{
 
-	String TAG = "WebServiceActivity";
-	ProgressDialog dialog;
+	private String TAG = "WebServiceActivity";
+	private ProgressDialog dialog;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_web_service);
+		Log.v(TAG,"onCreate");
 		Button btn = (Button) findViewById(R.id.my_button);
 		btn.setOnClickListener(this);
 		dialog = new ProgressDialog(this);
